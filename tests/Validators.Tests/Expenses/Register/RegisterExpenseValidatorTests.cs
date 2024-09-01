@@ -22,7 +22,7 @@ public class RegisterExpenseValidatorTests
 
     [Theory]
     [InlineData("")]
-    [InlineData("             ")]
+    [InlineData("    ")]
     [InlineData(null)]
     public void Error_Title_Empty(string title)
     {
